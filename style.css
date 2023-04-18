@@ -46,12 +46,14 @@ body{
 .left .btn:hover{
     color: #478640;
     border: 3px solid #478640;
-    /* background-color: #478640; */
-
 }
 .right .btn:hover{
     border: 3px solid #478640;
     background-color: #478640;
+}
+.container .btn:hover{
+    color: #478640;
+    border: 3px solid #478640;
 }
 
 /*? Nav Bar  */

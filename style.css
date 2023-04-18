@@ -1,0 +1,106 @@
+/*? Gym Website Styling */
+
+/*? Font */
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap');
+
+body{
+    /** CSS Reset */
+    margin: 0px;
+    padding: 0px;
+
+    /*? Adding Background Image */
+    box-sizing: border-box;
+    background-image: url(./img/gym1.jpg);
+    background-size: 100%;
+
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: bold;
+}
+
+
+/*? Fitness Gym Button  */
+.left{
+    position: absolute;
+    display: inline-block;
+    top:40px;
+    left: 120px;
+}
+
+.left div{
+    text-align: center;
+}
+
+.btn{
+    width: 135px;
+    height: 40px;
+    border: 3px solid #77cc6d;
+    border-radius: 8px;
+    color: #77cc6d;
+    background-color: black;
+    font-weight: bold;
+}
+
+.left .btn:hover{
+    color: #478640;
+    border: 3px solid #478640;
+    /* background-color: #478640; */
+
+}
+.right .btn:hover{
+    border: 3px solid #478640;
+    background-color: #478640;
+}
+
+/*? Nav Bar  */
+.mid{
+    /** To Center a div  */
+    display: block;
+    width: 50%;
+    margin: 12px  auto;
+
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+.navbar li{
+    display: inline-block;
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 22px 16px;
+}
+
+.navbar li a:hover, .navbar li a:active{
+    color: rgb(171, 171, 171);
+    text-decoration: underline;
+
+}
+
+
+/*? Call Button  */
+.right{
+    position: absolute;
+    display: inline-block;
+    top:40px;
+    right:240px;
+}
+
+.right button{
+    color: black;
+    width: 180px;
+    background-color: #77cc6d;
+}
+
+
+/*? Info Section */
+.container{
+    width: 485px;
+    color: white;
+    position: absolute;
+    top: 210px;
+    left: 180px;
+    text-align: center;
+}
